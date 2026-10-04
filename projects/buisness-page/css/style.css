@@ -1,0 +1,26 @@
+header {
+    background-color: #664c39;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f5efe6;
+    color: #44372d;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+footer {
+    background-color: #664c39;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+
