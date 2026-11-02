@@ -40,8 +40,9 @@ body {
     text-align: center;
     width: 450px;
     margin: 18px auto 0;
-    padding: 12px;
-    border: 2px solid #65272A;
+    padding: 25px;
+    border: 1.5px solid #65272A;
+    background-color: white;
 }
 
 .about {
@@ -53,6 +54,7 @@ body {
 .nav {
     text-align: center;
     margin-bottom: 30px;
+
 }
 
 .about-layout {
@@ -76,12 +78,181 @@ body {
     width: 100%;
     min-height: 120px;
     box-sizing: border-box;
-    border: 2px solid #65272A;
+    border: 1.5px solid #65272A;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 12px;
     margin: 0;
+}
+
+/* Gallery */
+
+.gallery nav {
+    margin-bottom: 25px;
+}
+
+.gallery-intro {
+    width: 40%;
+    min-height: 120px;
+    box-sizing: border-box;
+    border: 1.5px solid #65272A;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 30px;    
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 40px;
+    row-gap: 20px;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    width: 35%;
+    text-align: center;
+}
+
+/* Clips */
+
+.clips h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.clips nav {
+    margin-bottom: 25px;
+}
+
+.clips-intro {
+    width: 60%;
+    min-height: 120px;
+    box-sizing: border-box;
+    border: 1.5px solid #65272A;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 30px;  
+}
+
+.clips-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 40px;
+    row-gap: 20px;
+    margin-top: 20px;
+}
+
+.clip-item {
+    width: 35%;
+}
+
+.clip-box {
+    height: 245px;
+    border: 1.5px solid #65272A;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Resume */
+.resume {
+    width: 100%;
+    max-width: 500px;
+}
+
+.resume h1 {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.resume-section {
+    width: 100%;
+    min-height: 120px;
+    box-sizing: border-box;
+    border: 1.5px solid #65272A;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Contact */
+.contact h1 {
+    margin-bottom: 25px;
+}
+
+.contact-intro {
+    width: 38%;
+    min-height: 120px;
+    box-sizing: border-box;
+    margin-top: 25px;
+    border: 1.5px solid #65272A;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    margin-bottom: 30px;   
+}
+
+.contact-info {
+    width: 35%;
+    min-height: 300px;
+    border: 1.5px solid #65272A;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+/* Events */
+.events-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.events-gallery img {
+    width: 70%;
+    height: auto;
+}
+
+a {
+    color: #77685C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3D3029;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
     font-family: 'Montserrat', sans-serif;
 }

@@ -7,24 +7,74 @@
     <!-- meta -->
     <title>Addison Selby</title>
     <meta name="description" content="Addison Selby's Portfolio">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../site/css/style.css">
     <!-- JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"                integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1>Gallery</h1>
-    <nav>
-        <a href="../">Home</a> |
-        <a href="../about/">About</a> |
-        <a href="#">Gallery</a> |
-        <a href="../clips/">Clips</a> |
-        <a href="../resume/">Resume</a> |
-        <a href="../contact/">Contact</a>
-    </nav>
+    <main class="gallery">
+        <h1>Gallery</h1>
+        <nav>
+            <a href="../">Home</a> |
+            <a href="../about/">About</a> |
+            <a href="#">Gallery</a> |
+            <a href="../clips/">Clips</a> |
+            <a href="../resume/">Resume</a> |
+            <a href="../contact/">Contact</a>
+        </nav>
+
+        <section class="gallery-intro">
+            <p>Recently, I have been focusing a lot on photography. As someone who wants to work on a team that requires skills in multiple areas of journalism, I wanted to hone my photograhpy skills. These images were taken over the last few months, as I experiment with different techniques and focuses.</p>
+        </section>
+
+        <section class="photo-gallery">
+
+            <a href="../events/" class="gallery-item">
+                <div class="box">
+                    <img src="../site/img/FairP.jpg" alt="Cowboy standing on a barrel holding a lasso." height="469"
+                        width="305">
+                    <p>Events</p>
+                </div>
+            </a>
+
+            <a href="../street/" class="gallery-item">
+                <div class="box">
+                    <img src="../site/img/StreetP.jpg" alt="Man playing the harp" height="498" width="280">
+                    <p>Street</p>
+                </div>
+            </a>
+
+            <a href="../lighting/" class="gallery-item">
+                <div class="box">
+                    <img src="../site/img/LightingP.jpg" alt="Man playing the harp" height="498" width="280">
+                    <p>Lighting</p>
+                </div>
+            </a>
+
+            <a href="../other/" class="gallery-item">
+                <div class="box">
+                    <img src="../site/img/OtherP.jpg" alt="Man playing the harp" height="483" width="275">
+                    <p>Other</p>
+                </div>
+            </a>
+
+        </section>
+    </main>
 </body>
 
 </html>
